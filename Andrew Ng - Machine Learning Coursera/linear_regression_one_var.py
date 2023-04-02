@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('./deeplearning.mplstyle')
+# plt.style.use('./deeplearning.mplstyle')
 
 # x_train is the input variable (size in 1000 square feet)
 # y_train is the target (price in 1000s of dollars)

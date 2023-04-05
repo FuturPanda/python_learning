@@ -48,16 +48,23 @@ tmp_f_wb = compute_model_output(x_train, w, b,)
 print(tmp_f_wb)
 
 # Plot our model prediction
-plt.plot(x_train, tmp_f_wb, c='b',label='Our Prediction')
+# plt.plot(x_train, tmp_f_wb, c='b',label='Our Prediction')
 
-# Plot the data points
-plt.scatter(x_train, y_train, marker='x', c='r',label='Actual Values')
+# # Plot the data points
+# plt.scatter(x_train, y_train, marker='x', c='r',label='Actual Values')
 
-# Set the title
-plt.title("Housing Prices")
-# Set the y-axis label
-plt.ylabel('Price (in 1000s of dollars)')
-# Set the x-axis label
-plt.xlabel('Size (1000 sqft)')
-plt.legend()
+# # Set the title
+# plt.title("Housing Prices")
+# # Set the y-axis label
+# plt.ylabel('Price (in 1000s of dollars)')
+# # Set the x-axis label
+# plt.xlabel('Size (1000 sqft)')
+# plt.legend()
+# plt.show()
+
+ex_points1 = np.array([1, 2] )
+ex_points2 = np.array([4, 9] )
+ex_points3 = np.array([21, 47] )
+plt.plot(ex_points1, ex_points2, ex_points3, c="r", marker='x', label="Ex")
 plt.show()
+
